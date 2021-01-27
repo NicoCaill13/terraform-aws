@@ -13,6 +13,7 @@ Pour une meilleure lecture des Tags et balises adopter dans notre nomenclature, 
 * aws cli installé
 * configurer aws sur la machine
 * terraform installé
+* un accès SSH
 
 ### EC2's Tags
 Une instance EC2 doit avoir au minimum c'est 3 balises pour que le déploiement continu fonctionne
@@ -52,8 +53,13 @@ Une AMI doit avoir un Nom, une description, une balise Name et une balise name c
 |api-develop-nicocaill13-fr-20210127-001 | api-develop-nicocaill13-fr-20210127-001 | api-develop-nicocaill13-fr-20210127-001 | api develop|
 
 ## Command
+* Pour vérifier le plan d'exécution
 ```shell script
-.init.sh api develop api api 80 1 public dockerOn 
+./check.sh api develop api api 80 1 public dockerOn 
+```
+* Pour exécuter le plan
+```shell script
+./apply.sh api develop api api 80 1 public dockerOn 
 ```
 
 ### Arguments
