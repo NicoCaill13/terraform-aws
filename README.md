@@ -10,10 +10,9 @@ Pour une meilleure lecture des Tags et balises adopter dans notre nomenclature, 
 
 ## Prerequisites
 * un compte aws
-* aws cli installé
-  [I'm an inline-style link with title](https://www.google.com "Google's Homepage"){:target="_blank"}
-* configurer aws sur la machine
-* terraform installé
+* <a href="https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html" target="_blank" rel="noopener"><span> aws cli installé</span> </a>
+* <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html" target="_blank" rel="noopener"><span> configurer aws sur la machine</span> </a>
+* <a href="https://learn.hashicorp.com/tutorials/terraform/install-cli" target="_blank" rel="noopener"><span> terraform installé</span> </a>
 
 ### EC2's Tags
 Une instance EC2 doit avoir au minimum c'est 3 balises pour que le déploiement continu fonctionne
