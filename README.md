@@ -1,15 +1,18 @@
 # Deploying infrastructure on AWS
 
+## Introduction
+La recherche des différentes instances EC2 se fait sur les balises.  
+Pour que le déploiement continu fonctionne, une nomenclature à respecter est obligatoire.  
+Pour une meilleure lecture des Tags et balises adopter dans notre nomenclature, nous partons du prinicpe que :
+* le service est une ***API***
+* le nom de domaine est ***nicocaill13***
+* l'environement est ***develop***
+
 ## Prerequisites
-* un compte AWS
+* un compte aws
 * aws cli installé 
 * configurer aws sur la machine
 * terraform installé
-
-Nous partons du prinicpe que :  
-le service est une ***API***  
-le nom de domaine est ***nicocaill13***  
-l'environement est ***develop***
 
 ### EC2's Tags
 Une instance EC2 doit avoir au minimum c'est 3 balises pour que le déploiement continu fonctionne
