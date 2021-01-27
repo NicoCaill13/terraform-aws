@@ -1,6 +1,10 @@
 # Deploying infrastructure on AWS
 
 ## Prerequisites
+* un compte AWS
+* aws cli installé 
+* configurer aws sur la machine
+* terraform installé
 
 Nous partons du prinicpe que :  
 le service est une ***API***  
