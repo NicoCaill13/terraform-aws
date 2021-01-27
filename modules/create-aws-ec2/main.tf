@@ -36,7 +36,7 @@ resource "aws_instance" "new_instance" {
   provisioner "local-exec"{
     command = <<EOT
     ./modules/create-aws-ec2/check22.sh ${element(aws_instance.new_instance.*.private_ip, 0)}
-    ./${var.isDocker}.sh ${var.name} ${self.private_ip} ${var.directory}
+    ./scripts/${var.isDocker}.sh ${var.name} ${self.private_ip} ${var.directory}
     if [ ${var.isDocker} = "dockerOn" ]; then
     ssh gitlab@${self.private_ip} cd /var/www/html/${var.directory} && docker-compose down && docker-compose build \
     && sudo service docker restart docker-compose up -d && exit

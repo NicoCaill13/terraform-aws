@@ -15,6 +15,8 @@ Pour une meilleure lecture des Tags et balises adopter dans notre nomenclature, 
 * terraform installé
 * un accès SSH
 
+## Nomenclature
+
 ### EC2's Tags
 Une instance EC2 doit avoir au minimum c'est 3 balises pour que le déploiement continu fonctionne
 

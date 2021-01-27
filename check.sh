@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source ./variables.sh
+source ./scripts/variables.sh
 
 terraform init
 
