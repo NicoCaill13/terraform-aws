@@ -10,7 +10,8 @@ Pour une meilleure lecture des Tags et balises adopter dans notre nomenclature, 
 
 ## Prerequisites
 * un compte aws
-* aws cli installé 
+* aws cli installé
+  [I'm an inline-style link with title](https://www.google.com "Google's Homepage"){:target="_blank"}
 * configurer aws sur la machine
 * terraform installé
 
