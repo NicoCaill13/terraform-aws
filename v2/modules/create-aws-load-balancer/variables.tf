@@ -1,0 +1,9 @@
+variable "vpc_id" {}
+variable "name" {}
+variable "load_balancer_name" {}
+variable "internal" {}
+variable "security_group" {}
+variable "subnet" {}
+variable "env" {}
+variable "instance_id" {}
+variable "arn" {}
